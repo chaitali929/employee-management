@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chaitali929/employee-management.git/static/css/main.92376a47.css",
-    "main.js": "/chaitali929/employee-management.git/static/js/main.b19f9a7d.js",
-    "static/js/453.0aef8efe.chunk.js": "/chaitali929/employee-management.git/static/js/453.0aef8efe.chunk.js",
-    "index.html": "/chaitali929/employee-management.git/index.html",
-    "main.92376a47.css.map": "/chaitali929/employee-management.git/static/css/main.92376a47.css.map",
-    "main.b19f9a7d.js.map": "/chaitali929/employee-management.git/static/js/main.b19f9a7d.js.map",
-    "453.0aef8efe.chunk.js.map": "/chaitali929/employee-management.git/static/js/453.0aef8efe.chunk.js.map"
+    "main.css": "/chaitali929/employee-management/static/css/main.92376a47.css",
+    "main.js": "/chaitali929/employee-management/static/js/main.dc764253.js",
+    "static/js/453.0aef8efe.chunk.js": "/chaitali929/employee-management/static/js/453.0aef8efe.chunk.js",
+    "index.html": "/chaitali929/employee-management/index.html",
+    "main.92376a47.css.map": "/chaitali929/employee-management/static/css/main.92376a47.css.map",
+    "main.dc764253.js.map": "/chaitali929/employee-management/static/js/main.dc764253.js.map",
+    "453.0aef8efe.chunk.js.map": "/chaitali929/employee-management/static/js/453.0aef8efe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92376a47.css",
-    "static/js/main.b19f9a7d.js"
+    "static/js/main.dc764253.js"
   ]
 }
