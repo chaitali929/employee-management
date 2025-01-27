@@ -1,0 +1,146 @@
+/* General Styles */
+.task-container {
+    background-color: #f9fcff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-container h2 {
+    color: #007acc;
+    text-align: center;
+  }
+  
+  .task-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+  }
+  
+  .task-container button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .task-container table th,
+  .task-container table td {
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Export Button Styles */
+  .export-btn {
+    margin-top: 20px; /* Adds space above the button */
+    padding: 10px 20px; /* Adjusts padding for better visual appeal */
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .export-btn:hover {
+    background-color: #45a049; /* Darker green when hovering */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    /* For tablets and smaller laptops */
+    .task-container {
+      width: 90%; /* Make the container 90% width */
+      padding: 15px; /* Reduce padding */
+    }
+  
+    .task-container input {
+      padding: 8px;
+    }
+  
+    .task-container button,
+    .export-btn {
+      font-size: 14px; /* Make button text smaller */
+      padding: 8px 16px; /* Reduce button padding */
+    }
+  
+    .task-container table th,
+    .task-container table td {
+      padding: 8px; /* Reduce padding for table cells */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* For tablets and smaller devices */
+    .task-container {
+      width: 95%; /* Make the container take up more space */
+      padding: 10px; /* Further reduce padding */
+    }
+  
+    .task-container h2 {
+      font-size: 18px; /* Adjust title font size */
+    }
+  
+    .task-container input,
+    .task-container button,
+    .export-btn {
+      font-size: 14px; /* Smaller font size */
+      padding: 6px 12px; /* Smaller padding */
+    }
+  
+    .task-container table th,
+    .task-container table td {
+      padding: 6px; /* Even smaller padding for table cells */
+    }
+  
+    .task-container button {
+      width: 100%; /* Make button width full on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* For mobile devices */
+    .task-container {
+      width: 100%; /* Container takes full width */
+      padding: 5px; /* Minimal padding */
+    }
+  
+    .task-container h2 {
+      font-size: 16px; /* Smaller title font */
+    }
+  
+    .task-container input,
+    .task-container button,
+    .export-btn {
+      font-size: 12px; /* Even smaller font size */
+      padding: 5px 10px; /* Smaller button padding */
+    }
+  
+    .task-container table th,
+    .task-container table td {
+      padding: 4px; /* Very small padding for mobile */
+    }
+  
+    .task-container button {
+      width: 100%; /* Full width for buttons */
+    }
+  
+    /* Make the export button appear under the table for mobile */
+    .export-btn {
+      width: 100%; /* Full width for export button */
+      margin-top: 15px; /* Margin at the top to create space */
+    }
+  }

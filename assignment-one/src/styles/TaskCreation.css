@@ -1,0 +1,120 @@
+/* Task Creation Styles */
+.task-creation-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007acc;
+  }
+  
+  .form-section label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .output-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox input {
+    margin-right: 5px;
+  }
+  
+  .start-task-btn {
+    background: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .start-task-btn:hover {
+    background: #005ea6;
+  }
+  
+  /* Mobile and Tablet Responsiveness */
+  @media (max-width: 1024px) {
+    .task-creation-container {
+      width: 90%; /* Adjust width for tablets */
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    select, input {
+      font-size: 14px;
+    }
+  
+    .start-task-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .task-creation-container {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    select, input {
+      font-size: 13px;
+    }
+  
+    .start-task-btn {
+      font-size: 14px;
+      padding: 8px 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .task-creation-container {
+      width: 100%;
+      padding: 5px;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+  
+    select, input {
+      font-size: 12px;
+    }
+  
+    .start-task-btn {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
